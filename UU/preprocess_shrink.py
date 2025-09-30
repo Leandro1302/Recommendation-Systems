@@ -1,7 +1,7 @@
 from collections import Counter
 import pandas as pd
 import numpy as np
-df = pd.read_csv(r"C:\Users\Huawei\Documents\Corsi Udemy\Recommendation System\large_files\movielens-20m-dataset\edited_rating.csv")
+df = pd.read_csv(r"..\large_files\movielens-20m-dataset\edited_rating.csv")
 
 N = df.userId.max()+1
 M = df.movie_idx.max()+1

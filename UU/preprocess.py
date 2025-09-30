@@ -1,5 +1,5 @@
 import pandas as pd
-df = pd.read_csv(r"C:\Users\Huawei\Documents\Corsi Udemy\Recommendation System\large_files\movielens-20m-dataset\rating.csv", sep = ",").iloc[:,:3]
+df = pd.read_csv(r"..\large_files\movielens-20m-dataset\rating.csv", sep = ",").iloc[:,:3]
 
 df.userId = df.userId -1
 

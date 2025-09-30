@@ -1,7 +1,7 @@
 import pandas as pd
 from sklearn.utils import shuffle
 import pickle
-df = pd.read_csv(r"C:\Users\Huawei\Documents\Corsi Udemy\Recommendation System\large_files\movielens-20m-dataset\very_small_rating.csv", index_col = 0)
+df = pd.read_csv(r"..\large_files\movielens-20m-dataset\very_small_rating.csv", index_col = 0)
 
 N = df.userId.max()+1
 M = df.movie_idx.max()+1
