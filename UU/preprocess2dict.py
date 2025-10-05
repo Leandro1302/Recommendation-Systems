@@ -54,7 +54,7 @@ def update_usermovie2rating_test(row):
     i = int(row.userId)
     j = int(row.movie_idx)
     usermovie2rating[(i,j)] = row.rating
-df_test.applly(update_usermovie2rating_test, axis = 1)
+df_test.apply(update_usermovie2rating_test, axis = 1)
 
 with open("user2movie.json", "wb") as f:
     pickle.dump(user2movie, f)

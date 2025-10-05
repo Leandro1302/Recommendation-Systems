@@ -126,11 +126,4 @@ def mse(p,t):
     return np.mean((p-t)**2)
 
 print(f"train mse: {mse(train_predictions,train_targets)}")                
-print(f"test mse: {mse(test_predictions,test_targets)}")                
-                
-        
-    
-    
-    
-    
-    
+print(f"test mse: {mse(test_predictions,test_targets)}")                  
